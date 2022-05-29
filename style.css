@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body,
+.container,
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body,
+.container {
+    flex-direction: column;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    gap: 5rem;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.container,
+button {
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.line {
+    height: 0.3rem;
+    width: 7.5rem;
+    background-color: rgb(24, 113, 148);
+    margin-top: -4.5rem;
+}
+
+.container {
+    background-color: #fff;
+    width: 40rem;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.image {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+button,
+.question-marks {
+    color: #fff;
+}
+
+.name-post,
+.description,
+.button {
+    text-align: center;
+}
+
+.name-post {
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.name-post p:first-child {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.name-post p:last-child {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.pagination {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 3rem;
+    color: #188699;
+}
+
+.pagination span,
+button {
+    cursor: pointer;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+}
